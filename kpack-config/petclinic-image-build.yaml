@@ -4,12 +4,12 @@ metadata:
   name: petclinic-image
   namespace: default
 spec:
-  tag: boskey/app
+  tag: seletreby/app
   serviceAccount: tutorial-service-account
   builder:
     name: my-builder
     kind: Builder
   source:
     git:
-      url: https://github.com/spring-projects/spring-petclinic
+      url: https://github.com/seletreby310/spring-petclinic-1
       revision: 82cb521d636b282340378d80a6307a08e3d4a4c4
